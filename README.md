@@ -26,8 +26,8 @@ dependencies {
 For fetching response we need to create POJO class that automatically parse
 the JSON data using GSON in background. We just need to create this POJO Class
 ```
-> **i  Create CompaniesList.kt (kotlin Class)**
-> **ii Create Company.kt (Kotlin Data Class)**
+  - **i  Create CompaniesList.kt (kotlin Class)**
+  - **ii Create Company.kt (Kotlin Data Class)**
 
 ### 2. Service Interface 
 

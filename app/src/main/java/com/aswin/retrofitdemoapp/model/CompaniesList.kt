@@ -1,6 +1,6 @@
 package com.aswin.retrofitdemoapp.model
 
-/** JSON SAMPLE - API: https://testapi.devtoolsdaily.com/companies/
+/** JSON SAMPLE - API: https://testapi.devtoolsdaily.com/companies
  * [
  *   {
  *     "name": "Walt Disney",

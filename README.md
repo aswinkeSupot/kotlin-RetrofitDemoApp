@@ -83,10 +83,10 @@ FATAL EXCEPTION: main
 in RetrofitService.kt class we need to change the "fun" to "suspend function".
 For that
  i. first need to add Kotlin coroutines dependency:
-dependencies {
-    // Add Coroutines dependency
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
-}
+   dependencies {
+      // Add Coroutines dependency
+      implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+   }
 
  ii. need to add suspend for fun in RetrofitService.kt 
     @GET("/companies")
